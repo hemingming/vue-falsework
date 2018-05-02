@@ -1,5 +1,3 @@
-# i百联APPVue项目
-
 
 ## Build Setup
 
