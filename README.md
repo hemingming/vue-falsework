@@ -1,8 +1,5 @@
 # i百联APPVue项目
 
-> A Vue.js project for iBailianApp
-
-### vue快速指南 `https://bl-front-end.github.io/bluerdoc/#/home`
 
 ## Build Setup
 
@@ -29,30 +26,6 @@ npm run unit
 npm test
 ```
 
-- 开发代码gitlab仓库地址:`git@gitlab.bl.com:FED/iBailianAppVue.git`
-- 生产代码gitlab仓库地址:`git@gitlab.bl.com:FED/relace-ibailianAppVue.git`
-
-# 步骤
-
-## 拉取代码,关联远程仓库
-
-1. 先把开发代码克隆到本地目录,执行`git clone git@gitlab.bl.com:FED/iBailianAppVue.git`
-2. 命令行指向`dist/app/new`目录,执行`git remote add origin git@gitlab.bl.com:FED/relace-ibailianAppVue.git`,把代码跟生产代码仓库地址关联.
-
-## 提交代码
-
-修改完代码后执行`npm run build`,完毕后压缩的代码更新到dist文件夹下
-
-命令行指向到`dist/app/new` `git add .` `git commit -m ''` `git push`,这个步骤完毕后代码就提交到gitlab仓库里了
-
-### 测试环境访问地址（st）(URL:https://mh5.st.bl.com/#/)
-
-### 测试环境访问地址（st）(URL:https://mh5.ut.bl.com/#/)
-
-### 发布到生产环境(PRD)(URL:https://mh5.bl.com/#/)
-
-
-## 开发注意事项
 
 ### 代码提交备注规则
 1. [A] 新增
