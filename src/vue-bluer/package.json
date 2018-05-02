@@ -1,0 +1,19 @@
+{
+  "name": "vue-bluer",
+  "version": "1.2.7",
+  "description": "vue components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccppchen/vue-bluer.git"
+  },
+  "keywords": [
+    "vue",
+    "bluer"
+  ],
+  "author": "chenpeng",
+  "license": "ISC"
+}

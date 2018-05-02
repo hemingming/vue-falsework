@@ -1,0 +1,99 @@
+@charset "utf-8"; //
+@import "src/sass/tobe/base"; // @import "tobe/ext/comm";
+.basket{
+  background-color: #f7f7f7;
+}
+.globalbuy-logo {
+    width: rem(128);
+    height: auto;
+}
+.tabBox{
+  padding-top: rem(88);
+}
+.tabheight {
+    height: rem(88);
+    z-index: 10;
+    position: fixed;
+    top: rem(88);
+    left: 0;
+    right: 0;
+    .floor-container {
+      background-color: #594741;
+      ul{
+        overflow-x: auto;
+        position: relative;
+        font-size:0;
+        white-space: nowrap;
+      }
+      li{
+        display:inline-block;
+        height: rem(88);
+        line-height: rem(88);
+        font-size: .28rem;
+        width: 20%;
+        text-align: center;
+        overflow: hidden;
+        a{
+          color: #ffffff;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          display: inline-block;
+          max-width: 100%;
+        }
+      }
+    }
+}
+.selling-basket {
+    border-top: 1px solid #eeeeee;
+    background: #ffffff;
+    margin-top: rem(20);
+    position: relative;
+    overflow: hidden;
+    .title-mine-basket {
+        height: rem(88);
+        background: #ffffff;
+        line-height: rem(88);
+        text-align: center;
+        font-size: rem(34);
+        color: #333333;
+        i {
+            display: inline-block;
+            width: rem(36);
+            height: rem(31);
+            background: url(./i/HOT.png) no-repeat left center;
+            background-size: rem(36);
+            margin: 0 rem(5);
+        }
+    }
+    .selling-bgimg02 {
+        position: relative;
+        overflow: hidden;
+        a{
+          position:absolute;
+          top:50%;
+          left: 50%;
+          transform: translate3D(-50%,-50%,0);
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        img {
+              width: 100%;
+        }
+        &:after {
+          content:"";
+          display:block;
+          padding-top: 73%;
+        }
+    }
+
+}
+.emptydot{
+  position: absolute;
+  top: rem(-176);
+}
+img[lazy="error"],[lazy="loading"] {
+  width: rem(60)!important;
+}
